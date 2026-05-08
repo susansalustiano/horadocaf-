@@ -82,3 +82,37 @@ header ul {
         transform: translateX(-66.66%);
     }
 }
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header ul {
+        gap: 15px;
+    }
+
+    .carrossel {
+        height: 300px;
+    }
+}
+
+/* Celular */
+@media (max-width: 480px) {
+
+    .logo {
+        height: 40px;
+    }
+
+    header ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .carrossel {
+        width: 95%;
+        height: 220px;
+    }
+}
